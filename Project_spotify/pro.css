@@ -1,0 +1,462 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(28,27,27);
+}
+
+header{
+      position: sticky;
+    top: 0px;
+}
+.navbar{
+    height: max-content;
+    height: 70px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+  
+}
+
+#spo_logo{
+    width: 130px;
+    background-color: black;
+}
+
+#home_icon{
+    height: 45px;
+    width: 45px;
+    margin-left:20px ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 30px;
+    background-color: rgb(43, 43, 43);
+    
+}
+
+#home{
+    color: white;
+    font-size: 25px;
+    background-color: rgb(43, 43, 43);
+}
+
+
+#search_bar{
+    height: 50px;
+    width: 450px;
+    margin-left: 20px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+}
+#search_icon{
+    color: rgb(159, 159, 159);
+    margin-left: 10px;
+    background-color: rgb(43, 43, 43);
+}
+
+#input_bar{
+    color: white;
+    border: 0;
+    width: 200px;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: rgb(43, 43, 43);
+}
+
+.line{
+    color: white;
+    height: 30px;
+    width: 1px;
+    margin-left: 150px;
+    background-color: rgb(159, 159, 159);
+}
+
+#folder_icon{
+    background-color: rgb(43, 43, 43);
+    color: rgb(159, 159, 159);
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.nav_instraction{
+    width: 650px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-left:150px ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(159, 159, 159);
+    gap: 6px;
+}
+a{
+    background-color: black;
+}
+.line1{
+    color: white;
+    height: 30px;
+    width: 2px;
+    margin-left: 20px;
+    background-color: rgb(208, 208, 208);
+}
+#Download_icon{
+    background-color:black;
+}
+.nav_button{
+    color: rgb(159, 159, 159);
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#app_down{
+    background-color: black;
+}
+
+#nav_button{
+    height: 50px;
+    width:120px ;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 20px;
+    font-weight:500;
+    border-radius: 40px;
+}
+
+
+main{
+    display: flex;
+    height:auto;
+    width: auto;
+    background-color: black;
+}
+
+
+/* Left box */
+
+.left_box{
+    height: 800px;
+    width: 400px;
+    background-color: rgb(22, 22, 22);
+    margin: 5px;
+    border-radius: 10px;
+   
+}
+.left_box_contant{
+    color: azure;
+    margin-top: 15px;
+    display: flex;
+    justify-content:space-around;
+    width: 400px;
+    height: 20px;
+    background-color: rgb(22, 22, 22);
+    
+}
+#plus_icon1{
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.add_icon{
+    background-color: rgb(22, 22, 22);
+    font-size: 20px;
+}
+.left_box1_contant{
+    width: 375px;
+    height: 130px;
+    background-color:rgb(38, 38, 38);
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+.contant_box{
+    margin: 30px;
+    padding-top: 10px;
+    color: white;
+    background-color: rgb(38, 38, 38);
+}
+h4{
+    background-color: rgb(38, 38, 38);
+
+}
+p{
+    background-color: rgb(38, 38, 38);
+    color: rgb(212, 212, 212);
+}
+.button_layout{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+.left_box2_contant{
+    width: 375px;
+    height: 130px;
+    background-color:rgb(38, 38, 38);
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+.button2_layout{
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+/* Right box */
+
+.right_box{
+    height: 800px;
+    width: 1050px;
+    background-color:rgb(25, 25, 25);
+    margin: 5px;
+    border-radius: 10px;
+}
+#right_box_upper_text{
+    height:40px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-between;
+    background-color:rgb(25, 25, 25);
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+
+}
+.show_all{
+    color: rgb(159, 159, 159);
+    background-color: rgb(25, 25, 25);
+}
+#song_list{
+    margin-top: 20px;
+    width: 950px;
+    height:250px ;
+    padding-left: 60px;
+    background-color:rgb(25, 25, 25);
+    display: flex; 
+    gap: 20px;
+
+}
+.song1{
+    height: 240px;
+    width: 170px;
+    background-color:rgb(25, 25, 25);
+    color: white;
+    gap: 2px;
+    font-size: small;
+    border-radius: 10px;
+    cursor: pointer;
+}  
+.song1:hover{
+    background-color: rgb(41, 41, 41);
+}
+.music_1{
+    border: none;
+    color: rgb(0, 205, 58);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(43,43,43);
+    position: static;
+    bottom: 0px;
+    
+}
+#paly_1{
+    background: none;
+}
+
+
+.img{
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+}
+.song_name{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.song2{
+    height: 270px;
+    width: 170px;
+    background-color:rgb(25, 25, 25);
+    color: white;
+    gap: 2px;
+    font-size: small;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+.song2:hover{
+    background-color: rgb(41, 41, 41);
+}
+#paly_2{
+    background: none;
+}
+
+
+.song3{
+    height: 270px;
+    width: 170px;
+    background-color:rgb(25, 25, 25);
+    color: white;
+    gap: 2px;
+    font-size: small;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.song3:hover{
+    background-color: rgb(41, 41, 41);
+}
+#paly_3{
+    background: none;
+}
+
+
+.song4{
+    height: 270px;
+    width: 170px;
+    background-color:rgb(25, 25, 25);
+    color: white;
+    gap: 2px;
+    font-size: small;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.song4:hover{
+    background-color: rgb(41, 41, 41);
+}
+#paly_4{
+    background: none;
+}
+
+
+.song5{
+    height: 270px;
+    width: 170px;
+    background-color:rgb(25, 25, 25);
+    color: white;
+    gap: 2px;
+    font-size: small;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.song5:hover{
+    background-color: rgb(41, 41, 41);
+}
+#paly_5{
+    background: none;
+}
+
+
+/* Artist line */
+#artist_tagline{
+    height:40px ;
+    margin-top: 80px;
+    display: flex;
+    justify-content:space-between;
+    background-color:rgb(25, 25, 25);
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+.img_artist{
+    width: 170px;
+    border: none;
+    border-radius: 50%;
+}
+.img3_artist{
+    width: 170px;
+    border: none;
+    border-radius: 900px;
+}
+.artist_name{
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+}
+#artist_list{
+    margin-top: 20px;
+    width: 950px;
+    height:250px ;
+    padding-left: 60px;
+    background-color:rgb(25, 25, 25);
+    display: flex; 
+    gap: 20px;
+
+}
+.artist{
+    height: 250px;
+    width: 180px;
+    background-color:rgb(25, 25, 25);
+    color: white;
+    gap: 2px;
+    font-size: small;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left:10px ;
+}
+.artist:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+
+/* music section */
+#music_section{
+    position: sticky;
+    bottom: 0px;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow-y: scroll;
+}
+#music_line{
+    height:55px;
+    gap: px;
+}
+
+.music_button{
+    height: 30px;
+    width: 30px;
+    border: none;
+    color: rgb(197, 197, 197);
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#audio1{
+    margin-top: 20px;
+    color:black;
+    margin-right: 20px;
+}
+
+#thodi_song{
+    margin-top: 20px;
+    margin-right:10px;
+    /* position: fixed;
+    left: 0px; */
+    border-radius: 10px;
+    height: 50px;
+}
